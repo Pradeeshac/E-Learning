@@ -1,0 +1,151 @@
+body{
+	margin: 0px;
+}
+.page-container{
+	margin: 0% 10% 0% 10%;
+}
+.noTextDec{
+	text-decoration:none;
+}
+.nav-bar {
+	padding: 0% 7% 0% 7%;
+	background-color: #364150;
+}
+.nav-bar ul {
+    list-style-type: none;
+	float: right;
+}
+
+.nav-bar li {
+    float: left;
+}
+
+.nav-bar li a {
+    display: inline-block;
+	color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-bar li a:hover {
+    color: rgb(0,135,201);
+}
+.logo {
+  height: 70px;
+  width:150px;
+}
+.logo1{
+  border-radius:50px;
+  width:130px;
+margin-left:-90px;
+}
+.login{
+	margin-left: 15px;
+	float:right;
+	color: white!important;
+	background-color: rgb(0,135,201)!important;
+}
+.signup{
+	margin-left: 10px;
+	float:right;
+	border: 1px solid rgb(0,135,201);
+}
+.themeImage{
+	height: 100%; 
+	width: 100%; 
+	object-fit: contain;
+	margin-top:-50px;
+}
+td
+{
+    padding:0 15px 0 15px;
+}
+.card-group{
+	text-align:center;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    width:100%;
+	height:390px;
+	cursor: pointer;
+}
+.course-image{
+	width:300px;
+	height: 200px;
+                 text-align:center;
+margin-left:10px;
+}
+.card:hover {
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.6);
+}
+.card-content {
+    padding: 2px 16px;
+	text-align: justify;
+}
+
+.footer {
+	padding: 0% 10% 0% 10%!important;
+	background-color: #364150;
+	overflow:hidden	
+}
+.footer div{
+	float: left;
+    display: block;
+    color: white;
+    padding: 14px 16px;	
+}
+.footer-col1 a:hover, .footer-col2 a:hover,.footer-col3 a:hover{
+	color: rgb(0,135,201);
+}
+.footer-col2, .footer-col3{
+	margin-left:25%;
+}
+.footer-col1 a, .footer-col2 a, .footer-col3 a{
+	color: white;	
+	padding:5px;
+	text-align: left;
+	display:block;
+	text-decoration: none;
+}
+@media all and (max-width: 767px) {
+    .nav-bar {
+        padding: 0% 10% 0% 10%;
+		background-color: #364150;
+		height: 330px;
+    }
+	.footer-col2, .footer-col3{
+	margin-left:0%;
+}
+}
+.arrow_icon{
+margin:0px 20px;
+display:flex;
+align-items:center;
+cursor:pointer;
+justify-content:center;
+flex-direction:column;
+}
+
+.sp{
+position:relative;
+height:50px;
+width:50px;
+display:block;
+background-color:#364150;
+box-shadow: 0 15px 15px rgba(0,0,0,0.1);
+border-radius:50%;
+}
+.arrow{
+border:solid white;
+border-width:0 3px 3px 0px;
+display:inline-flex;
+padding:3px;
+height:10px;
+width:10px;
+}
+.right{
+transform:rotate(-45deg);
+margin:15px 0px 0px 10px;
+}

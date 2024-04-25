@@ -1,0 +1,6 @@
+<?php 				
+$courses[]=$_SESSION['courses[]'];
+foreach($courses as $c){						
+echo "<h2>$c</h2>";
+}
+?>
